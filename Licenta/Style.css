@@ -1,0 +1,209 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+header{
+  display: block;
+  margin-top: -15px;
+  background: #202020;
+}
+
+header h1
+{
+  padding: 20px 20px;
+  font-size: 20px;
+  color: white;
+}
+
+h2{
+  color: #202020;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.help-block{
+  color: red;
+  font-size: 14px;
+}
+
+.message{
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+p{
+  font-size: 11px;
+}
+
+a{
+  font-size: 14px;
+  text-decoration: none;
+  color: #3498db;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+input{
+margin: 0;
+}
+
+.login{
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  height: 280px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%,-75%);
+}
+
+.login input[type="email"], .login input[type="password"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 180px;
+  outline: none;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.login input[type="email"]:focus, .login input[type="password"]:focus{
+  width: 250px;
+  border-color: #2ecc71;
+}
+
+.login input[type="submit"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  border-radius: 24px;
+  transition: 0.25s;
+  color: #2ecc71;
+}
+
+.login input[type="submit"]:hover{
+  color: white;
+  background-color: #2ecc71;
+}
+
+
+.check{
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  height: 280px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%,-75%);
+
+}
+
+.check input[type="text"]{
+  text-align: center;
+  outline: none;
+  width: 300px;
+  height: 32px;
+  border-radius: 16px;
+  border: 2px solid #3498db;
+}
+
+.register .form-control{
+  outline: none;
+  width: 300px;
+  height: 32px;
+  border-radius: 16px;
+  border: 2px solid #3498db;
+}
+
+.register .form-control:hover{
+  border-color: #2ecc71;
+}
+
+.register{
+  text-align: center;
+}
+
+.check input[type="text"]:focus{
+  border-color: #2ecc71;
+}
+
+.check input[type="submit"],.register input[type="submit"]
+{
+  outline: none;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  background-color: white;
+  border: 2px solid #3498db;
+}
+
+.check input[type="reset"],.register input[type="reset"]{
+  outline: none;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  background-color: white;
+  border: 1px solid;
+}
+
+input[type="reset"]:hover,.register input[type="reset"]:hover{
+  background-color: black;
+  color: white;
+}
+
+.check input[type="submit"]:hover,.register input[type="submit"]:hover{
+  background-color: #2ecc71;
+  border-color: #2ecc71;
+  color:white;
+}
+
+label{
+  font
+}
+
+.g-recaptcha {
+  padding-top: 50px;
+  display: inline-block;
+}
+
+.brands{
+  margin-top: 50px;
+  margin-left: 55px;
+  padding: 15px;
+  width: 530px;
+  border: 1px solid grey;
+  color: grey;
+  border-radius: 10px;
+}
+
+.brands label{
+  font-size: 25px;
+}
+.brands img{
+  width: 125px;
+  height: 125px;
+}
+
+.brands:hover{
+  border-color: #2ecc71;
+  color: #2ecc71;
+}

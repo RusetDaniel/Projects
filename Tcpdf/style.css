@@ -1,0 +1,51 @@
+
+body{
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 70%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+h1{
+  text-align: center;
+}
+
+.boxes {
+  background-color: lightgrey;
+  padding: 10px;
+  margin: 15px 25px;
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.contact {
+  float: right;
+}
+
+.dom {
+  margin-top: 100px;
+  overflow: none;
+}
+
+input[type="submit"]{
+  outline: none;
+  width: 100px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+input[type="submit"]:hover{
+  background-color: white;
+  color:black;
+}
+input[type="submit"]:active{
+  background-color: white;
+  color:black;
+}

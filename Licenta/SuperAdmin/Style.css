@@ -1,0 +1,197 @@
+body{
+  margin:0;
+  padding: 0;
+}
+
+.container{
+  padding-top:50px;
+  height: 100vh;
+  background-image: url("backgroundimg.png");
+  background-size: 1440px 800px;
+  margin-top: 0px;
+  margin-left: 200px;
+}
+
+.sidebar{
+  margin: 0;
+  float: left;
+  width: 200px;
+  height: 100vh;
+  text-align: center;
+  box-shadow: 0 0 7px 0 #777;
+  position:fixed;
+}
+.sidebar h1{
+
+  font-size: 27px;
+}
+.sidebar ul{
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li a
+{
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  display: block;
+  box-shadow: 0 0 1px 0 #777;
+}
+
+.menubtn:hover{
+  background-color: #2ecc71;
+  transition: 1s;
+}
+
+#logout:hover{
+  color: white;
+  background-color: #EE0808;
+  transition: 1s;
+}
+
+#current{
+  background-color: #2ecc71;
+}
+
+#greeting{
+  margin-left: 40%;
+  background-color: white;
+  width: auto;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.register-box{
+  background-color: white;
+  margin-left: 50%;
+  height: auto;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0 #777;
+}
+
+.register-box h2{
+  padding: 10px;
+}
+.form-group{
+    padding-top: 10px;
+    margin-left: 20px;
+}
+.form-control{
+  margin: 0;
+  outline: none;
+  width: 325px;
+  height: 20px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.form-control:hover{
+  border-color: #3498db;
+}
+
+.help-block{
+  color: red;
+  font-size: 14px;
+}
+
+#submit-btn{
+  margin-left: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: white;
+  border:2px solid #3498db;
+  width: 100px;
+  height: 25px;
+}
+
+#submit-btn:hover{
+  background-color: #3498db;
+  color:white;
+}
+
+.display{
+  overflow: auto;
+  background-color: white;
+  border: 1px solid white;
+  height: auto;
+  width: 1080px;
+  margin-top: 25px;
+  margin-left: 25px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0 #777;
+}
+
+
+#usersstable {
+    margin: 15px 25px 25px 15px;
+}
+#usersstable th,td{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#usersstable tr:nth-child(odd){
+  background-color: #f2f2f2;
+}
+
+#usersstable tr:hover {
+  background-color: #ddd;
+}
+
+#usersstable th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #2ecc71;
+  color: white;
+}
+
+#usersstable {
+overflow: auto;
+white-space: nowrap;
+}
+
+.tablepages{
+  margin: 10px 0 10px 25px;
+}
+
+.tablepages a{
+  text-decoration: none;
+  padding-left: 3px;
+  color: black;
+}
+.tablepages a:hover{
+  color: red;
+  font-size: 21px;
+}
+
+#curPage{
+  color: red;
+  font-size: 21px;
+}
+
+
+.searchusers{
+  margin: 25px;
+}
+
+#search-button{
+  width: 80px;
+}
+
+#deleteButton{
+  padding: 2px 8px;
+  display: block;
+  margin: auto;
+  background-color: white;
+}
+
+#deleteButton:hover{
+  background-color: red;
+  color: white;
+}
