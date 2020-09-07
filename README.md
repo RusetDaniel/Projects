@@ -1,6 +1,6 @@
 # Projects
 
-Here are some of my projects
+Here are some of my projects:
 
 1.AlgoritmiGenetici/Genetici P Final - is a small c ++ application built in visual studio, which uses genetic algorithms to simulate the reproduction of individuals and the evolution and mutation of genes.
 The simulation is done by generating a population of individuals with random genes. A new population will be created, by passing the initial population through
