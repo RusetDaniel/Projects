@@ -5,7 +5,7 @@ Here are some of my projects:
 1.AlgoritmiGenetici/Genetici P Final - is a small c ++ application built in visual studio, which uses genetic algorithms to simulate the reproduction of individuals and the evolution and mutation of genes.
 The simulation is done by generating a population of individuals with random genes. A new population will be created, by passing the initial population through
 the phases of selection of individuals, crossing and mutation of genes. After these phases the new population becomes the old one, 
-and the proces repeats until the individuals gets to the best genetic fitness.
+and the proces repeats until the individuals gets to the best genetic condition.
 
 2.Licenta - is a Web application, created to optimize and facilitate the warranty management process, 
 both for the beneficiary of the guarantee and for the members of the service that will deal with the product under warranty.
